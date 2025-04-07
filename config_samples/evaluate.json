@@ -1,0 +1,10 @@
+{
+    "model_type": "referring",
+    "model_path": "models/visual_grounding_model.pth",
+    "image_dir": "data/val2014",
+    "annotation_file": "data/instances_val.json",
+    "refexp_file": "data/refs(unc)_val.p",
+    "batch_size": 64,
+    "use_cuda": true
+  }
+  

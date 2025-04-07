@@ -1,0 +1,13 @@
+{
+    "model_type": "referring",
+    "image_dir": "./data/train2014",
+    "annotation_file": "./data/refcoco/instances.json",
+    "refexp_file": "./data/refcoco/refs(unc).p",
+    "output_model_path": "../models/visual_grounding_model.pth",
+    "epochs": 50,
+    "batch_size": 128,
+    "learning_rate": 0.0001,
+    "train_split": 0.93,
+    "use_cuda": true
+  }
+  
